@@ -1,83 +1,32 @@
-.cont{
+body{
     display: flex;
     justify-content: center;
 }
-
 .container{
-    width: 250px;
-    height: 315px;
+    width:300px;
+    height: 400px;
     border: 1px solid black;
-    border-radius: 15px;
-    margin: 30px 15px;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    align-items: center;
-
+    background-color: antiquewhite;
 }
-ul{
-    display: flex;
-    list-style-type:none;
-    justify-content: center;
+.planet{
+    border: 1px solid yellow;
+    width: 250px;
+    height: 250px;
+    margin: 15px auto;
+    border-radius: 100%;
+    background-color: yellow;
+    border-color: black;
 }
-.photo{
-    margin: 40px 0 20px 0;
-}
-.title{
-    font-weight: bold;
-    margin-bottom: 20px;
-    margin-top: 0;
-}
-.download{
+.button{
     width: 200px;
-    height: 25px;
-    background-color: gray;
-    border-radius: 5px;
-    text-align: center;
-    padding: 10px 0;
-    color: aliceblue;
+    height: 50px;
+    margin: auto;
+    font-family: 'Calibri';
+    font-weight: 1000;
 }
-.download2{
-    display: flex;
-    justify-content: center;
-    width: 150px;
-
+button{
+    border-radius: 20px;
+    background-color: aquamarine;
 }
-.buttons1{
-    background-color: gray;
-    border-radius: 5px;
-    padding: 10px 0;
-    color: aliceblue;
-    width: 80px;
-    height: 25px;
-}
-.buttons2{
-    background-color: gray;
-    border-radius: 5px;
-    padding: 10px 0;
-    color: aliceblue;
-    width: 80px;
-    margin-left: 20px;
-    height: 25px;
-}
-p{
-    margin: 0;
-    text-align: center;
-}
-.container:hover{
-    border-color: blue;
-}
-.container:hover .download{
-    background-color: blue;
-}
-.container:hover .title{
-    color: blue;
-}
-
-.container:hover .buttons1{
-    background-color: blue;
-}
-.container:hover .buttons2{
-    background-color: blue;
-}
-
